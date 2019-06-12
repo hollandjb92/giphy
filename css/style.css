@@ -1,0 +1,34 @@
+ body {
+   background-color:
+ }
+
+ #pokemonInput,
+ #deletePokemon {
+   width: 80%;
+ }
+
+ #pokemonForm label,
+ #pokemonForm input {
+   margin: 5px 0;
+ }
+
+ .pokemonButton {
+   height: 100%;
+   margin-right: 5px;
+   margin-bottom: 10px;
+   background: -moz-linear-gradient(left, #F04037 50%, #fff 50%);
+   background: -webkit-linear-gradient(left, #F04037 50%, #fff 50%);
+   background: linear-gradient(to bottom, #F04037 50%, #fff 50%);
+   font-weight: 800;
+   font-size: 1.25rem;
+   box-shadow: 1px 2px #888888;
+ }
+
+ .pokemonButton:hover {
+   transform: scale(1.1);
+ }
+
+ #gifs div {
+   display: inline-block;
+   width: 33%;
+ }
