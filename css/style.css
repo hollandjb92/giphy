@@ -6,8 +6,9 @@
  body {
    font-family: "Pokemon-S";
    font-size: 20px;
-
+   background-color: #F2F2F2;
  }
+
 
  #pokemonInput,
  #deletePokemon {
@@ -42,18 +43,32 @@
    margin: auto 0;
  }
 
- h3 {
+ h2 {
    margin-bottom: 20px;
  }
 
 
- .pokemonButton:hover {
+ .pokemonButton:hover,
+ .download:hover {
    transform: scale(1.1);
  }
 
  #gifs div {
    display: inline-block;
    width: 33%;
+ }
+
+ a:hover {
+   color: black;
+ }
+
+ .download {
+   margin: auto;
+   box-shadow: none;
+ }
+
+ a {
+   color: #dc3545;
  }
 
  @media only screen and (max-width: 1214px) {
